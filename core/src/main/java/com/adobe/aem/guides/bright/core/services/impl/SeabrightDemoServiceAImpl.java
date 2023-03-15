@@ -19,7 +19,7 @@ import javax.jcr.Session;
 import java.util.Iterator;
 import java.util.List;
 
-@Component(service = SebrightDemoService.class,immediate = true)
+@Component(service =SebrightDemoService.class,immediate = true)
 public class SeabrightDemoServiceAImpl implements SebrightDemoService {
     private static final Logger LOG= LoggerFactory.getLogger(SeabrightDemoServiceAImpl.class);
 
