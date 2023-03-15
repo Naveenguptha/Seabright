@@ -1,0 +1,90 @@
+.cards{
+    .cards-left{
+        width:50%;
+        float: left;
+        img{
+            float: left;
+            height: 266px;
+            margin: 0px 14%;
+        }
+    }
+    .cards-right{
+        width:50%;
+        float: left;
+        .cards-info{
+            margin-right: 20px;
+            .cards-title{
+                color: #5c5c5c;
+                font-size: 36px;
+            }
+            .cards-decsription{
+                color: #5c5c5c;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.cards.rowTwo{
+    .cardsDesign{
+    width:47%;
+    float: left;
+    margin: 0px 1.5%;
+    .cards-left{
+        width:100%;
+        float: left;
+        img{
+            float: left;
+            height: 266px;
+            margin: 0px 0px;
+        }
+    }
+    .cards-right{
+        width:100%;
+        float: left;
+        .cards-info{
+            margin-right: 20px;
+            .cards-title{
+                color: #5c5c5c;
+                font-size: 36px;
+            }
+            .cards-decsription{
+                color: #5c5c5c;
+                font-size: 16px;
+            }
+        }
+    }
+}
+}
+
+.cards.rowThree{
+    .cardsDesign{
+    width:30%;
+    float: left;
+    margin: 0px 1.5%;
+    .cards-left{
+        width:100%;
+        float: left;
+        img{
+            float: left;
+            height: 266px;
+            margin: 0px 0;
+        }
+    }
+    .cards-right{
+        width:100%;
+        float: left;
+        .cards-info{
+            margin-right: 20px;
+            .cards-title{
+                color: #5c5c5c;
+                font-size: 36px;
+            }
+            .cards-decsription{
+                color: #5c5c5c;
+                font-size: 16px;
+            }
+        }
+    }
+}
+}

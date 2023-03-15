@@ -1,0 +1,31 @@
+@import 'variables';
+// fonts css
+
+$breakpoints: (
+    'mobile-min': (min-width: 320px),
+    'mobile-max': (max-width: 767px),
+    'mobile-min-max': (min-max: 320px) and (max-width: 767px),
+    'tablet-min': (min-width: 768px),
+    'tablet-max': (max-width: 1024px),
+    'tablet-min-max': (min-max: 768px) and (max-width: 1024px),
+    'large-desktop-min': (min-width: 1200px),
+    'desktop-max': (max-width: 1199px),
+    'desktop-min': (min-width: 1025px),
+    'small-mobile-max': (max-width: 359px),
+    'small-mobile-min': (min-width: 360px),
+    'portrait-mobile-max': (max-width: 575px),
+    'portrait-mobile-min': (min-width: 576px),
+    'custom-small-mobile-max': (max-width: 374px),
+    'custom-small-mobile-min': (min-width: 375px),
+    'custom-small-plus-mobile-min': (min-width: 414px)
+);
+@mixin breakpoint($name) {
+    @if map-has-key($breakpoints, $name) {
+        @media screen and #{inspect(map-get($breakpoints, $name))} {
+            @content;
+        }
+    }
+    @else {
+        @warn "Couldn't find a breakpoint named `#{$name}`.";
+    }
+}

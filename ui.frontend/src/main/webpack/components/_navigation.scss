@@ -1,0 +1,35 @@
+.cmp-navigation {}
+.cmp-navigation__group {
+  float: right;
+}
+.cmp-navigation__item {}
+.cmp-navigation__item--active {}
+.cmp-navigation__item--level-0 {}
+.cmp-navigation__item--level-0:hover > .cmp-navigation__group {
+  background: #ECECEC;
+}
+.cmp-navigation__item-link {}
+
+.cmp-navigation{
+  .cmp-navigation__group{
+      float: right;
+      .cmp-navigation__item{
+        display: inline;
+        a{
+              color:#5c5c5c!important;
+              text-decoration: none;
+              font-size: 16px;
+              font-weight: 600;
+              margin: 0px 15px;
+              a:hover{
+                text-decoration: underline;
+              }
+          }
+          .cmp-navigation__item--active{
+            a{
+              text-decoration: underline;
+            }
+          }
+      }
+  }
+}

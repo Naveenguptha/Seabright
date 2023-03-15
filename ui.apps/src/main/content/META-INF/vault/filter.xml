@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/bright/clientlibs"/>
+    <filter root="/apps/bright/components"/>
+    <filter root="/apps/bright/i18n"/>
+</workspaceFilter>

@@ -1,0 +1,41 @@
+.banner{
+    .backgroundImage{
+        height: 450px;
+
+        .banner-left{
+            width: 50%;
+            float: left;
+        }
+
+        .banner-right{
+            width: 50%;
+            float: right;
+
+            .bannerInfo{
+                margin-top: 10%;
+                float: right;
+
+            h2.bannerTitle{
+                font-size: 62px;
+                color: #000000;
+                margin: 10px 0px;
+                font-weight: 400;
+                line-height: 120%;
+            }
+            h5.bannerDesc{
+                font-size: 22px;
+                color: #000000;
+                    margin: 0px;
+                p{
+                    margin: 10px 0px;
+                }
+
+            }
+    
+        }
+
+        }
+       
+    }
+
+}
